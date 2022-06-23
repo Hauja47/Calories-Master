@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity
         toolbarLogo = findViewById(R.id.toolbar_logo);
         toolbarLogo.setVisibility(View.VISIBLE);
         toolbarLogoText = findViewById(R.id.toolbar_logo_text);
+
         toolbarLogoText.setVisibility(View.VISIBLE);
         toolbarUserImage = (CircleImageView) findViewById(R.id.toolbar_user_image);
         toolBarProfileEditBtn = (ImageButton) findViewById(R.id.toolbar_profile_edit_button);

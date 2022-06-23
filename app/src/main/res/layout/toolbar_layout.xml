@@ -10,21 +10,43 @@
     app:contentInsetStartWithNavigation="0dp"
     app:titleTextColor="@color/LightTextColor">
 
-    <ImageView
-        android:id="@+id/toolbar_logo"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:src="@drawable/logoimage"
-        android:tint="@color/LightTextColor"
-        android:visibility="gone"/>
+<!--    <ImageView-->
+<!--        android:id="@+id/toolbar_logo"-->
+<!--        android:layout_width="25dp"-->
+<!--        android:layout_height="25dp"-->
+<!--        android:src="@drawable/logoimage"-->
+<!--        android:tint="@color/LightTextColor"-->
+<!--        android:visibility="gone"-->
+<!--        />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/toolbar_logo_text"-->
+<!--        android:layout_width="40dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:src="@drawable/logotext"-->
+<!--        android:tint="@color/LightTextColor"-->
+<!--        android:visibility="gone"-->
+<!--        />-->
 
     <ImageView
-        android:id="@+id/toolbar_logo_text"
+        android:id="@+id/toolbar_logo"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:src="@drawable/logotext"
+        android:src="@drawable/logo_none"
         android:tint="@color/LightTextColor"
-        android:visibility="gone"/>
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:paddingBottom="4dp"
+        android:text="Calories Master"
+        android:id="@+id/toolbar_logo_text"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:src="@drawable/logo_title"
+        android:tint="@color/LightTextColor"
+        android:visibility="gone"
+        />
 
 
 

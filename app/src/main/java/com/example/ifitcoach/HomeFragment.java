@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment;
 import android.text.SpannableString;
 import android.text.TextUtils;
 import android.text.style.RelativeSizeSpan;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -797,6 +798,7 @@ public class HomeFragment extends Fragment
                                         String foodCalories = dataSnapshot.child("foodcalories").getValue().toString();
                                         foodCalories = String.format(Locale.US,"%.0f",(Double.parseDouble(strUserNumberOfServing) * Double.parseDouble(foodCalories)) / Double.parseDouble(strUserServingSize));
                                         strUserFoodCalories = String.format(Locale.US,"%.0f",(Double.parseDouble(strUserFoodCalories) + Double.parseDouble(foodCalories)));
+                                        Log.w("calo thuc an",strUserFoodCalories);
                                     }
 
                                     strUserServingSize="1";

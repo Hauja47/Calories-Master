@@ -10,11 +10,11 @@
 
     <ImageView
         android:id="@+id/imageView11"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="200dp"
-        app:srcCompat="@drawable/logoimage" />
+        app:srcCompat="@drawable/logo_none" />
 
     <TextView
         android:id="@+id/creator"
