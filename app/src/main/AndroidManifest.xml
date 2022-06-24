@@ -1,67 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ifitcoach">
+    package="com.example.CaloriesMaster">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
+<!--    android:icon="@mipmap/ifit_ic_launcher"-->
+<!--    android:roundIcon="@mipmap/ifit_ic_launcher_round"-->
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ifit_ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Calories Master"
         android:resizeableActivity="false"
-        android:roundIcon="@mipmap/ifit_ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ViewMessagesActivity"></activity>
-        <activity android:name=".MessagesActivity" />
-        <activity android:name=".ServiceManagerActivity" />
-        <activity android:name=".OrdersActivity" />
-        <activity android:name=".ViewServiceActivity" />
-        <activity android:name=".GoalsActivity" />
-        <activity android:name=".AddWorkoutActivity" />
-        <activity android:name=".ConnectionsActivity" />
-        <activity android:name=".RequestActivity" />
-        <activity android:name=".ServiceActivity" />
-        <activity android:name=".PostCommentActivity" />
-        <activity android:name=".CreateServiceActivity" />
-        <activity android:name=".AddFoodActivity" />
+        <activity android:name="com.example.CaloriesMaster.ViewMessagesActivity"></activity>
+        <activity android:name="com.example.CaloriesMaster.MessagesActivity" />
+        <activity android:name="com.example.CaloriesMaster.ServiceManagerActivity" />
+        <activity android:name="com.example.CaloriesMaster.OrdersActivity" />
+        <activity android:name="com.example.CaloriesMaster.ViewServiceActivity" />
+        <activity android:name="com.example.CaloriesMaster.GoalsActivity" />
+        <activity android:name="com.example.CaloriesMaster.AddWorkoutActivity" />
+        <activity android:name="com.example.CaloriesMaster.ConnectionsActivity" />
+        <activity android:name="com.example.CaloriesMaster.RequestActivity" />
+        <activity android:name="com.example.CaloriesMaster.ServiceActivity" />
+        <activity android:name="com.example.CaloriesMaster.PostCommentActivity" />
+        <activity android:name="com.example.CaloriesMaster.CreateServiceActivity" />
+        <activity android:name="com.example.CaloriesMaster.AddFoodActivity" />
         <activity
-            android:name=".FindActivity"
+            android:name="com.example.CaloriesMaster.FindActivity"
             android:screenOrientation="unspecified" />
         <activity
-            android:name=".PostActivity"
+            android:name="com.example.CaloriesMaster.PostActivity"
             android:screenOrientation="unspecified" />
         <activity
-            android:name=".CreateFoodActivity"
+            android:name="com.example.CaloriesMaster.CreateFoodActivity"
             android:screenOrientation="unspecified" />
         <activity
-            android:name=".DiaryActivity"
+            android:name="com.example.CaloriesMaster.DiaryActivity"
             android:screenOrientation="unspecified" />
         <activity
-            android:name=".FoodListActivity"
+            android:name="com.example.CaloriesMaster.FoodListActivity"
             android:screenOrientation="unspecified" />
         <activity
-            android:name=".AccountTypeActivity"
+            android:name="com.example.CaloriesMaster.AccountTypeActivity"
             android:screenOrientation="unspecified" />
         <activity
-            android:name=".CreatePostActivity"
+            android:name="com.example.CaloriesMaster.CreatePostActivity"
             android:screenOrientation="unspecified" />
         <activity
-            android:name=".SetupActivity"
+            android:name="com.example.CaloriesMaster.SetupActivity"
             android:screenOrientation="unspecified" />
         <activity
-            android:name=".WelcomeActivity"
+            android:name="com.example.CaloriesMaster.WelcomeActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".LoginActivity"
+            android:name="com.example.CaloriesMaster.LoginActivity"
             android:screenOrientation="unspecified" />
         <activity
-            android:name=".CreateAccountActivity"
+            android:name="com.example.CaloriesMaster.CreateAccountActivity"
             android:screenOrientation="unspecified" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.CaloriesMaster.MainActivity"
             android:screenOrientation="unspecified">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -70,7 +72,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SplashActivity"
+            android:name="com.example.CaloriesMaster.SplashActivity"
             android:screenOrientation="unspecified">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
